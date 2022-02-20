@@ -1,4 +1,172 @@
+body {
+    background-color: #b4e9fa;
+}
 
 .hidden {
     display: none;
 }
+
+.savebtn {
+    position: relative;
+    border: none;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 800;
+    transition: 0.25s;
+    background: linear-gradient(-45deg, #33ccff 0%, #ff99cc 90%);
+    color: white;
+    
+}
+
+.inputname {
+    width: 300px;
+    height: 32px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 15px;
+    outline: darkgray;
+    padding-left: 10px;
+    background-color: rgb(233, 233, 233);
+    opacity: 0.38;
+    margin: 20px;
+}
+.imgtitle {
+    font-family: 'Shizuru', cursive;
+
+    color :rgb(91, 91, 225);
+    font-size: 20px;
+    position: absolute;
+    left: 60%;
+    top: 210px;
+
+}
+.randomimg {
+    width:450px;
+    height: 400px;
+
+    box-shadow: 0 5px 35px rgba(30, 35, 201, 0.2);
+
+    position: absolute;
+    left: 55%;
+    top: 250px;
+    border-radius: 15px;
+}
+
+.inputtodo {
+    width: 300px;
+    height: 32px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 15px;
+    outline: darkgray;
+    padding-left: 10px;
+    background-color: rgb(233, 233, 233);
+    opacity: 0.38;
+   
+    margin: 20px;
+    position: relative;
+    top: 20vh;
+}
+#todo-list{
+    font-size: 18px;
+    color: cornflowerblue;
+    
+    position: relative;
+    left:0;
+    top: 20vh;
+}
+button {
+    position: relative;
+    border: none;
+    display: inline-block;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 800;
+    transition: 0.25s;
+    background: linear-gradient(-45deg, #33ccff 0%, #ff99cc 90%);
+    color: white;
+    margin: 5px;
+}
+#clock {
+    width: 110px;
+    height: 32px;
+    color: cornflowerblue;
+    background-color: cornsilk;
+    border-radius: 10px;
+    line-height: 32px;
+    text-align: center;
+
+    margin: 20px;
+    position: absolute;
+    top: 28vh;
+}
+
+#quotes {
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 25px;
+    color:rgb(16, 43, 92);
+    position: absolute;
+    margin: 10px;
+    bottom: 0vh;
+    opacity: 0.5;
+
+}
+
+.hellouser {
+    color: cornflowerblue;
+    font-size: 70px;
+    font-family: 'Josefin Sans', sans-serif;
+    
+    margin: 30px 10px 0 20px;
+}
+
+#weather > span:first-child {
+    background-color: rgb(61, 128, 243); 
+    color:rgb(255, 255, 255);
+    opacity: 0.5;
+    font-size: 25px;
+    border-radius: 100px;
+    padding: 30px;
+
+    margin: 10px;
+    position: absolute;
+    left: 80%;
+    top: 10%;
+    
+}
+
+#weather > span:last-child {
+    
+    background-color: rgb(218, 232, 244);
+    color:cornflowerblue;
+    opacity: 0.7;
+
+    margin: 10px;
+    position: absolute;
+    left: 80%;
+    top: 25%;
+}
+
+.weathertitle {
+    font-family: 'Do Hyeon', sans-serif;
+    width: 450px;
+    font-size: 30px;
+    color:rgb(132, 173, 248);
+    background-color: rgb(218, 232, 244);
+    border-radius: 50px;
+    opacity: 0.7;
+    padding: 4px;
+    
+    text-align: center;
+    margin: 10px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+}
+

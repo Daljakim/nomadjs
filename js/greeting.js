@@ -67,8 +67,9 @@ function onLoginSubmit(event) { //submit은 엔터 혹은 클릭했을때 발생
    paintGreetings(username); 
 }
  function paintGreetings(username) {
-    greeting.innerText = `Hello ${username}`;
+    greeting.innerText = `Hello ${username}!`;
     greeting.classList.remove(HIDDEN_CLASSNAME);
+    greeting.classList.add("hellouser");
  }
  
 const savedUsername = localStorage.getItem(USERNAME_KEY );

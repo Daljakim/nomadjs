@@ -19,12 +19,12 @@ function deleteToDo(event) {
 }
 
 function paintToDo(newTodo) {
-    const li = document.createElement("li");
+    const li = document.createElement("p");
     li.id = newTodo.id;
     const span = document.createElement("span");
-    span.innerText = newTodo.text;
+    span.innerText = `✔ ${newTodo.text}`;
     const button = document.createElement("button");
-    button.innerText = "❌"
+    button.innerText = "👌🏻"
     button.addEventListener("click", deleteToDo)
     li.appendChild(span);  // li는 spanㅇ라는 자식을 가지게 됨 
     li.appendChild(button); //append는 마지막에!
